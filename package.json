@@ -1,0 +1,36 @@
+{
+    "name": "@paulhfischer/eslint-config-typescript",
+    "version": "1.1.0",
+    "description": "ESLint-config for typed JavaScript projects.",
+    "main": "index.js",
+    "author": "Paul Fischer <paul.fischer@mailbox.org>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/paulhfischer/prettier-config"
+    },
+    "license": "GPL-3.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "eslintConfig": {
+        "extends": [
+            "@paulhfischer/eslint-config-javascript"
+        ]
+    },
+    "prettier": "@paulhfischer/prettier-config",
+    "peerDependencies": {
+        "@paulhfischer/prettier-config": "1.1.0",
+        "eslint-config-airbnb-base": "15.0.0",
+        "eslint-config-airbnb-typescript": "16.1.0",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-plugin-html": "6.2.0",
+        "eslint-plugin-jinja2-processor": "1.0.0",
+        "eslint-plugin-prettier": "4.0.0"
+    },
+    "files": [
+        "index.js"
+    ],
+    "engines": {
+        "npm": ">=7"
+    }
+}
