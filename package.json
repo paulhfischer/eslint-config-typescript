@@ -1,6 +1,6 @@
 {
     "name": "@paulhfischer/eslint-config-typescript",
-    "version": "1.12.2",
+    "version": "1.13.0",
     "description": "ESLint-config for typed JavaScript projects.",
     "main": "index.js",
     "author": "Paul Fischer <paul.fischer@mailbox.org>",
@@ -23,7 +23,7 @@
         "eslint-config-airbnb-base": "15.0.0",
         "eslint-config-airbnb-typescript": "17.0.0",
         "eslint-config-prettier": "8.5.0",
-        "eslint-plugin-html": "6.2.0",
+        "eslint-plugin-html": "7.0.0",
         "eslint-plugin-jinja2-processor": "1.2.0",
         "eslint-plugin-prettier": "4.2.1"
     },
