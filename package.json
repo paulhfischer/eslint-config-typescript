@@ -1,6 +1,6 @@
 {
     "name": "@paulhfischer/eslint-config-typescript",
-    "version": "1.14.3",
+    "version": "1.14.4",
     "description": "ESLint-config for typed JavaScript projects.",
     "main": "index.js",
     "author": "Paul Fischer <paul.fischer@mailbox.org>",
