@@ -1,19 +1,34 @@
+minimum_pre_commit_version: 4.7.0
 repos:
+  - repo: meta
+    hooks:
+      - id: check-hooks-apply
+      - id: check-useless-excludes
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
-      - id: check-json
-      - id: check-yaml
-      - id: check-merge-conflict
+      - id: check-added-large-files
       - id: check-case-conflict
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-yaml
       - id: end-of-file-fixer
       - id: mixed-line-ending
         args: [--fix=lf]
+      - id: trailing-whitespace
+  - repo: https://github.com/pre-commit/pre-commit
+    rev: v4.7.0
+    hooks:
+      - id: validate_manifest
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.38.2
+    hooks:
+      - id: check-github-workflows
   - repo: https://github.com/paulhfischer/eslint-config-javascript
-    rev: v1.24.0
+    rev: v2.0.0
     hooks:
       - id: lint
   - repo: https://github.com/paulhfischer/prettier-config
-    rev: v1.13.0
+    rev: v2.0.0
     hooks:
       - id: lint
