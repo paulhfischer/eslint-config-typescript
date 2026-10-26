@@ -7,9 +7,9 @@
     - '--no-warn-ignored'
   additional_dependencies:
     - '@eslint/js@10.0.1'
-    - '@paulhfischer/eslint-config-javascript@2.1.0'
-    - '@paulhfischer/prettier-config@2.0.0'
-    - '@typescript-eslint/utils@8.71.2'
+    - '@paulhfischer/eslint-config-javascript@2.2.0'
+    - '@paulhfischer/prettier-config@2.1.0'
+    - '@typescript-eslint/utils@8.72.0'
     - eslint@10.13.0
     - eslint-config-prettier@10.1.8
     - eslint-import-resolver-typescript@4.4.5
@@ -20,7 +20,7 @@
     - globals@17.13.0
     - prettier@3.9.10
     - typescript@6.0.3
-    - typescript-eslint@8.71.2
+    - typescript-eslint@8.72.0
   types:
     - file
   files: \.(js|mjs|cjs|ts|mts|cts|html|php)$
