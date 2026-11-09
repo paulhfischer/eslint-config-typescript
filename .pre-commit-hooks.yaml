@@ -7,14 +7,14 @@
     - '--no-warn-ignored'
   additional_dependencies:
     - '@eslint/js@10.0.1'
-    - '@paulhfischer/eslint-config-javascript@2.3.0'
+    - '@paulhfischer/eslint-config-javascript@2.4.0'
     - '@paulhfischer/prettier-config@2.1.0'
     - '@typescript-eslint/utils@8.72.1'
     - eslint@10.14.0
     - eslint-config-prettier@10.1.8
     - eslint-import-resolver-typescript@4.4.5
     - eslint-plugin-html@8.2.1
-    - eslint-plugin-import-x@4.17.1
+    - eslint-plugin-import-x@4.18.1
     - eslint-plugin-jinja2-processor@2.0.0
     - eslint-plugin-prettier@5.5.7
     - globals@17.14.0
